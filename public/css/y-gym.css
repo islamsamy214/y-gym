@@ -1,0 +1,380 @@
+body{
+    font-family: "Nunito", sans-serif;
+    background-color: #ffffff;
+}
+.sidebar-menu .menu-text{
+    font-size: 17px;
+}
+.dropdown-notifications .n-items{
+    height: auto;
+    border-bottom: 1px solid #e5e5e5;
+}
+.dropdown-header{
+    text-align: center;
+    font-size: 17px;
+}
+.dropdown-notifications .n-item{
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.dropdown-notifications .n-item .n-link{
+    text-decoration: none;
+}
+.dropdown-notifications .n-item .n-link:hover{
+    text-decoration: none;
+}
+.custom-dropdown{
+    min-width: 150px;
+}
+.navbar-search-group {
+    max-width: min-content;
+    min-width: max-content;
+}
+.control-bar{
+    position: relative;
+    min-height: 1px;
+    margin: 15px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    min-height: 50px;
+}
+.search-bar{
+    margin: 2.5px;
+}
+.buttons-bar{
+    margin: 2.5px;
+    text-align: right;
+}
+.profile-btn{
+    margin: 15px;
+}
+#image{
+    width: 300px;
+    height: 300px;
+    border: solid #000 1px;
+    border-radius: 7%;
+    padding: 3px;
+    margin: 10px auto;
+}
+.form-image{
+    margin: 10px 0;
+}
+
+.alert{
+    position: fixed;
+    z-index: 11;
+    right: 1%;
+    top: 8%;
+    width: 400px;
+}
+
+.alert-warning{
+    display: none;
+}
+
+.table thead tr th{
+    text-align: center;
+}
+.table tbody tr td{
+    padding: 3px;
+    line-height: 2.538;
+}
+.table .actions a, .table .actions button{
+    font-size: 19px;
+    margin-left: 10px;
+    font-size: medium;
+    color: #FFFFFF;
+}
+.table .actions a:hover, .table .actions button:hover{
+    color: #fffb00;
+    transition: 300ms color;
+}
+.article-panel-body{
+    height: 160px;
+}
+.article-panel-footer{
+    box-shadow: 0px -10px 40px -3px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 0px -10px 40px -3px rgba(0,0,0,0.47);
+    -moz-box-shadow: 0px -10px 40px -3px rgba(0,0,0,0.47);
+}
+.video-preview{
+    width: 300px;
+    height: 300px;
+    border: solid #000 1px;
+    border-radius: 7%;
+    padding: 3px;
+    margin: 10px auto;
+}
+.article-panel-body p{
+    max-width: inherit;
+    overflow: hidden;
+    height: 124px;
+}
+.panel-title,.panel-subtitle{
+    max-width: inherit;
+    overflow: hidden;
+}
+.article-modal-body p{
+    max-width: inherit;
+    overflow: auto;
+    max-height: 700px;
+}
+.article-modal-body img, .article-modal-body video{
+    width: 50%;
+    height: 300px;
+    margin-bottom: 10px;
+    display: block;
+}
+.panel{
+    border: 0;
+}
+.plan-panel-body{
+    padding: 0;
+}
+.plan-panel-body img{
+    width: 100%;
+    display: block;
+    height: 270px;
+}
+.panel-detail{
+    opacity: 0.6;
+}
+.panel-description{
+    margin: 0 0 15px 0;
+    color: #484848;
+}
+.workout-image{
+    width: 100px;
+    height: 100px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.form-day{
+    margin: 30px;
+}
+.errors{
+    margin-top: 10px;
+    padding: 5px;
+}
+.link-disabled{
+    pointer-events: none;
+    cursor: default;
+}
+.workout-days{
+    background-color: #FFFFFF;
+    margin: 10px;
+    padding: 20px;
+    color: #303030;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    border-radius: 10px;
+}
+.status-paid{
+    background-color: #009400;
+    width: 100%;
+    margin: 0;
+}.status-didnot-paid{
+    background-color: #e2bb0b;
+    width: 100%;
+    margin: 0;
+}
+.profile .p-about .status-paid .pas-item .pas-text,
+.profile .p-about .status-paid .pas-item .pas-number{
+    color: #FFFFFF;
+
+}
+.web-site-footer{
+    margin: 0;
+}
+.left-li{
+    font-size: medium;
+}
+.left-li li:first-child{
+    border-bottom: solid 1px #000000;
+    margin-left:2px;
+    transition-timing-function: ease-out;
+}
+.left-li li:nth-child(2){
+    border-bottom: solid 1px #FBBC05;
+    margin-left:2px;
+    transition-timing-function: ease-out;
+}
+.left-li li:nth-child(3){
+    border-bottom: solid 1px #1D87E4;
+    margin-left:2px;
+}
+.left-li li:nth-child(4){
+    border-bottom: solid 1px #E53935;
+    margin-left:2px;
+}
+.left-li li:first-child a:hover{
+    color: #000000 !important;
+    transition: color 200ms;
+    transition-timing-function: ease-in-out;
+}
+.left-li li:nth-child(2) a:hover{
+    color: #FBBC05 !important;
+    transition: color 200ms;
+    transition-timing-function: ease-in-out;
+}
+.left-li li:nth-child(3) a:hover{
+    color: #1D87E4 !important;
+    transition: color 200ms;
+    transition-timing-function: ease-in-out;
+}
+.left-li li:nth-child(4) a:hover{
+    color: #E53935 !important;
+    transition: color 200ms;
+    transition-timing-function: ease-in-out;
+}
+.canvasjs-chart-credit{
+    display: none;
+}
+.navbar-header .left-brand{
+    left: 25%;
+}
+.web-nav-header{
+    background-color: #FFFFFF;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+.head-img{
+    background: url('header-img.jpg') no-repeat center center fixed;
+	background-size:cover;
+    height: 800px;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+}
+.head-img-overlay{
+    background-color: black;
+    height: 100%;
+    opacity: .4;
+}
+.fix-img-position{
+    height: 800px;
+}
+.fix-footer-position{
+    height: 100px;
+}
+.overlay-content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+}
+.overlay-content img{
+    max-width: 100%;
+}
+.overlay-content .container{
+    max-width: 100%;
+    margin: 40px auto;
+    font-size: medium;
+    color: #ffffff;
+}
+.description-section,
+.contact-section{
+    margin: 50px;
+}
+.description-section h1,
+.contact-section h1{
+    margin: 50px;
+    font-size: 3em;
+}
+.description-section p{
+    max-width: 480px;
+    margin: 20px auto;
+    font-size: 18px;
+    opacity: .9;
+}
+.description-header,
+.contact-section h1{
+    margin-bottom: 80px;
+}
+.description-content h4{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.description-content div{
+    margin-top: 70px;
+    height: 180px;
+}
+.description-content p{
+    font-size: 16px;
+}
+.show-more-btn span{
+    position: relative;
+}
+.widget-infoblock .wi-stat span{
+    font-size: 28px;
+    line-height: normal;
+    position: relative;
+    top: 5px;
+}
+.widget-infoblock .wi-title::after{
+    background-color: #1d87e4;
+}
+.widget-infoblock.wi-small .wi-title{
+    font-size: 18px;
+}
+.contact-section form div:nth-child(2),
+.contact-section form div:nth-child(3){
+    width: 530px;
+    display: inline-block;
+}
+.dashboard-footer-section{
+    background-color: #EEEEEE;
+    margin: 50px 0 50px 0;
+    padding: 50px 0;
+}
+.dashboard-footer-section .container .row div span{
+    display: block;
+    font-size: 16px;
+    margin: 20px;
+}
+.dashboard-footer-section .container .row div a{
+    opacity: .7;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 5px;
+}
+.dashboard-footer-section .container .row div a:hover{
+    opacity: 1;
+    transition: 500ms opacity;
+}
+.dashboard-footer-section .container .row div:nth-child(1) a{
+    display: block;
+}
+.dashboard-footer-section .container .row div p{
+    opacity: .7;
+    margin: 5px;
+}
+.dashboard-footer-section .container .row div .input-group{
+    left: 20%;
+}
+.dashboard-footer-section .container .row div .input-group .form-control:first-child{
+    margin-top: 20px;
+}
+.plan-card{
+    max-height: 535px;
+}
+.dashboard-footer-section .container .row div a:nth-child(odd):hover{
+    color: #E53935;
+}
+.dashboard-footer-section .container .row div a:nth-child(even):hover{
+    color: #FBBC05;
+}
+.tab-profile{
+    width: max-content;
+    margin: 20px auto;
+}
+.header-position-fixer{
+    margin-bottom: 20px;
+}
+.workouts-web-paginator nav .pagination .active span{
+    background: #E53935;
+    border-color: #E53935;
+}
